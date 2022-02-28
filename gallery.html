@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lady Faizunnisa Khan English School</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="shortcut icon" href="favicon for website/ms-icon-310x310.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/e114f77edb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/gallery.css">
+    <link rel="stylesheet" href="dist/imagebox.min.css">
+<script src="dist/imagebox.min.js"></script>
+
+
+</head>
+
+<body>
+    <section class="sub-header gallery-header">
+
+        <nav>
+
+          <a href="index.html">
+            <img src="./images/final-school-logo.jpeg" alt="Logo">
+
+        </a>
+        
+            <div class="nav-links" id="navLinks">
+                <i class=" fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About School</a></li>
+                    <li><a href="facilities.html">Facilities</a></li>
+                    <li><a href="achievments.html">Achivements</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="ict.html">PAI-ICT</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Gallery </h1>
+    </section>
+
+    <!--Gallery  content-->
+  
+    
+      <div class="gallery-con">
+
+        
+
+          <img  class="responsive" src="./images/gallery-img/school-poster.jpg"data-imagebox="g1"  alt="">
+          <img  src="./images/gallery-img/School-img.jpg"data-imagebox="g1" alt="">
+          <img   src="./images/gallery-img/award-.jpg" data-imagebox="g1" alt="">
+          <img   src="./images/gallery-img/award-2.jpg" data-imagebox="g1" alt="">
+          <img   src="./images/gallery-img/dance.jpg" data-imagebox="g1" alt="">
+          <img   src="./images/gallery-img/dance-2.jpg" data-imagebox="g1" alt="">
+          <img   src="./images/winner of annual.jpg" data-imagebox="g1" alt="">
+          <img   src="./images/hardware.jpg" data-imagebox="g1" alt="">
+          <img   src="./images/gallery-img/img-1.jpeg" data-imagebox="g1" alt="">
+          <img   src="./images/gallery-img/img-2.jpeg" data-imagebox="g1" alt="">
+          <img   src="./images/gallery-img/img-3.jpeg" data-imagebox="g1" alt="">
+          <img   src="./images/gallery-img/img-4.jpeg" data-imagebox="g1" alt="">
+          <img   src="./images/gallery-img/img-5.jpeg" data-imagebox="g1" alt="">
+          <img   src="./images/gallery-img/shaila teacher.jpeg" data-imagebox="g1" alt="">
+          
+          
+          
+
+        
+      </div>
+    </section>
+
+   <a href="#" class="gotop"><i class="fas fa-arrow-up"></i></a>
+
+    
+
+    <section class="footer">
+      <h4>Our social networks</h4>
+      <p>“Social media is the ultimate equaliser. It gives a voice and a platform to anyone willing to engage.” <br> <strong> --- Amy Jo Martin, Founder and CEO of Digital Royalty</strong></p>      <div class="footer-icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-instagram"></i>
+        <a href="https://www.youtube.com/channel/UCp1LCzLUDhuce1jOqgHf-Yg/featured"><i class="fa fa-youtube"></i></a>
+      </div>
+      <p>All rights reserved.</p>
+    </section>
+
+
+    <script src="js/script.js"></script>
+
+
+    <script>
+      function showMore(){
+        moreContent  = document.querySelector('.principle');
+        btn  = document.getElementById("about-btn");
+
+        if(moreContent.style.display == "none"){
+
+          moreContent.style.display = "inline";
+          btn.innerHTML = "Show Less";
+          
+        }
+        else{
+          
+          moreContent.style.display ="none";
+          btn.innerHTML = "Show More";
+        }
+      }
+
+    </script>
+</body>
+
+</html>

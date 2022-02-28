@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+
+
+html{
+
+    scroll-behavior: smooth;
+}
+.flexs-items h1{
+
+    position: absolute;
+    left: 47%;
+    top: 53%;
+}
+
+
+.ictg-b{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/ict-bg.jpg);
+    background-position:bottom;
+    background-attachment:fixed;
+    background-size:cover;
+    text-align: center;
+    color: #fff;
+
+}
+
+.instructor-cont{
+
+    position:absolute;
+    left: 10px;
+    top: 270px;
+}
+
+
+.president-message-container{
+
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    margin-top: 25px;
+
+}
+
+.president-message-container img{
+
+    width: 500px;
+    height: 621px;
+}
+
+@media(max-width:550px){
+
+    .president-message-container img{
+
+        width: 340px;
+        height: 460px;
+    }
+}
+
+@media(max-width:767px){
+
+    .special-message{
+
+        width: 100%;
+    }
+}
+
+.special-message{
+
+    width: 50%;
+}
+.special-message p{
+
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+}
+
+ .exam-sec h2{
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+
+}
+
+.exam-container{
+
+    width:80%;
+    /*border: 1px solid black;*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.exam-container h1{
+    text-align: center;
+    
+
+}
+
+.exam-container p{
+
+    text-align: left;
+    font-size:1.1rem;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.annual-img{
+
+    width: 365px;
+    height: 274px;
+    border-radius: 15px;
+    
+}
+
+@media(max-width:500px){
+
+    .annual-img{
+
+        width: 300px;
+    }
+}
+@media(max-width:400px){
+
+    .annual-img{
+
+        width: 250px;
+        height: 220px;
+    }
+}
+
+.ict-gallery h1{
+
+    text-align: center;
+    margin-top: 50px;
+}
+
+.gotop{
+
+    position:fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #f44336;
+    bottom:40px;
+    right: 40px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+
+}
+
+.gotop i{
+
+    color: #fff;
+}
+
+
+.gallery-con{
+
+width: 97%;
+height: auto;
+margin-top: 50px;
+
+}
+
+
+.gallery-con img{
+
+  width: 340px;
+  height: 215px;
+}
+
+@media(min-width:1000px){
+
+  .gallery-con img{
+
+    position: relative;
+    left: 15%;
+    top: 50%;
+  }
+}

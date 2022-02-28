@@ -1,0 +1,47 @@
+html{
+
+    scroll-behavior: smooth;
+}
+
+
+
+.achivment-bg{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/achivment-bg.jpg);
+    background-position:bottom;
+    background-attachment:fixed;
+    background-size:cover;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-gap: 40px;
+    align-items: stretch;
+    
+  }
+  
+  .grid > article {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  }
+  
+  .grid > article img {
+    max-width: 100%;
+  }
+  
+  .grid .text {
+    padding: 20px;
+  }
+  
+
+.ideal-img{
+
+    width: 378px;
+    height: 460px;
+}
+
+.ideal-img2{
+    width: 431px;
+    height: 491px;
+}
